@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\vs\\Lesson03-VAD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31C9E0A1-57A7-4791-93BD-543123AB11FB}|bttl3_2\\bttl3_2.csproj|d:\\vs\\lesson03-vad\\bttl3_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C9E0A1-57A7-4791-93BD-543123AB11FB}|bttl3_2\\bttl3_2.csproj|solutionrelative:bttl3_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C9E0A1-57A7-4791-93BD-543123AB11FB}|bttl3_2\\bttl3_2.csproj|D:\\vs\\Lesson03-VAD\\bttl3_2\\views\\vadhome\\formdktv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C9E0A1-57A7-4791-93BD-543123AB11FB}|bttl3_2\\bttl3_2.csproj|solutionrelative:bttl3_2\\views\\vadhome\\formdktv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C9E0A1-57A7-4791-93BD-543123AB11FB}|bttl3_2\\bttl3_2.csproj|d:\\vs\\lesson03-vad\\bttl3_2\\views\\vadhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C9E0A1-57A7-4791-93BD-543123AB11FB}|bttl3_2\\bttl3_2.csproj|solutionrelative:bttl3_2\\views\\vadhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C9E0A1-57A7-4791-93BD-543123AB11FB}|bttl3_2\\bttl3_2.csproj|D:\\vs\\Lesson03-VAD\\bttl3_2\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C9E0A1-57A7-4791-93BD-543123AB11FB}|bttl3_2\\bttl3_2.csproj|solutionrelative:bttl3_2\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C9E0A1-57A7-4791-93BD-543123AB11FB}|bttl3_2\\bttl3_2.csproj|D:\\vs\\Lesson03-VAD\\bttl3_2\\controllers\\vadhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C9E0A1-57A7-4791-93BD-543123AB11FB}|bttl3_2\\bttl3_2.csproj|solutionrelative:bttl3_2\\controllers\\vadhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C9E0A1-57A7-4791-93BD-543123AB11FB}|bttl3_2\\bttl3_2.csproj|D:\\vs\\Lesson03-VAD\\bttl3_2\\views\\vadhome\\dktv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C9E0A1-57A7-4791-93BD-543123AB11FB}|bttl3_2\\bttl3_2.csproj|solutionrelative:bttl3_2\\views\\vadhome\\dktv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9889A0FB-28E3-4F55-A7D5-9905E08D12BF}|Lab3_3\\Lab3_3.csproj|D:\\vs\\Lesson03-VAD\\lab3_3\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9889A0FB-28E3-4F55-A7D5-9905E08D12BF}|Lab3_3\\Lab3_3.csproj|solutionrelative:lab3_3\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C9E0A1-57A7-4791-93BD-543123AB11FB}|bttl3_2\\bttl3_2.csproj|D:\\vs\\Lesson03-VAD\\bttl3_2\\models\\lhdn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C9E0A1-57A7-4791-93BD-543123AB11FB}|bttl3_2\\bttl3_2.csproj|solutionrelative:bttl3_2\\models\\lhdn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LHDN.cs",
+              "DocumentMoniker": "D:\\vs\\Lesson03-VAD\\bttl3_2\\Models\\LHDN.cs",
+              "RelativeDocumentMoniker": "bttl3_2\\Models\\LHDN.cs",
+              "ToolTip": "D:\\vs\\Lesson03-VAD\\bttl3_2\\Models\\LHDN.cs",
+              "RelativeToolTip": "bttl3_2\\Models\\LHDN.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T13:03:56.208Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormDKTV.cshtml",
+              "DocumentMoniker": "D:\\vs\\Lesson03-VAD\\bttl3_2\\Views\\VADHome\\FormDKTV.cshtml",
+              "RelativeDocumentMoniker": "bttl3_2\\Views\\VADHome\\FormDKTV.cshtml",
+              "ToolTip": "D:\\vs\\Lesson03-VAD\\bttl3_2\\Views\\VADHome\\FormDKTV.cshtml",
+              "RelativeToolTip": "bttl3_2\\Views\\VADHome\\FormDKTV.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T13:23:22.494Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\vs\\Lesson03-VAD\\bttl3_2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "bttl3_2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\vs\\Lesson03-VAD\\bttl3_2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "bttl3_2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:54:47.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\vs\\Lesson03-VAD\\bttl3_2\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "bttl3_2\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\vs\\Lesson03-VAD\\bttl3_2\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "bttl3_2\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:53:10.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\vs\\Lesson03-VAD\\bttl3_2\\Views\\VADHome\\Index.cshtml",
+              "RelativeDocumentMoniker": "bttl3_2\\Views\\VADHome\\Index.cshtml",
+              "ToolTip": "D:\\vs\\Lesson03-VAD\\bttl3_2\\Views\\VADHome\\Index.cshtml",
+              "RelativeToolTip": "bttl3_2\\Views\\VADHome\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:52:18.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\vs\\Lesson03-VAD\\Lab3_3\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Lab3_3\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\vs\\Lesson03-VAD\\Lab3_3\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Lab3_3\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:50:42.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DKTV.cshtml",
+              "DocumentMoniker": "D:\\vs\\Lesson03-VAD\\bttl3_2\\Views\\VADHome\\DKTV.cshtml",
+              "RelativeDocumentMoniker": "bttl3_2\\Views\\VADHome\\DKTV.cshtml",
+              "ToolTip": "D:\\vs\\Lesson03-VAD\\bttl3_2\\Views\\VADHome\\DKTV.cshtml",
+              "RelativeToolTip": "bttl3_2\\Views\\VADHome\\DKTV.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:43:12.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VADHomeController.cs",
+              "DocumentMoniker": "D:\\vs\\Lesson03-VAD\\bttl3_2\\Controllers\\VADHomeController.cs",
+              "RelativeDocumentMoniker": "bttl3_2\\Controllers\\VADHomeController.cs",
+              "ToolTip": "D:\\vs\\Lesson03-VAD\\bttl3_2\\Controllers\\VADHomeController.cs",
+              "RelativeToolTip": "bttl3_2\\Controllers\\VADHomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:21:19.945Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

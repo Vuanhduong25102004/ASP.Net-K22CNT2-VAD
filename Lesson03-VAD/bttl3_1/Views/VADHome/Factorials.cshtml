@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Factorials";
+}
+
+<h2>Giai thừa từ 1 đến 10</h2>
+<table class="table">
+    <tr>
+        <th>Số</th>
+        <th>Giai thừa</th>
+    </tr>
+    @foreach (var item in ViewBag.Factorials)
+    {
+        <tr>
+            <td>@item.Key</td>
+            <td>@item.Value</td>
+        </tr>
+    }
+</table>

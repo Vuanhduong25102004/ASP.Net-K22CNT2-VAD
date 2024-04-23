@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Prime Numbers";
+}
+
+<h2>Số nguyên tố từ 1 đến 100</h2>
+<ul>
+    @foreach (var prime in ViewBag.PrimeNumbers)
+    {
+        <li>@prime</li>
+    }
+</ul>

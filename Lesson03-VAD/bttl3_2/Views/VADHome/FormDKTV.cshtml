@@ -1,0 +1,99 @@
+﻿@{
+    ViewBag.Title = "FormDKTV";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="text-transform:uppercase">Form đăng ký thành viên</h2>
+
+@{
+    Html.BeginForm("DKTV", "VADHome", FormMethod.Get);
+    <table class="table table-bordered">
+        <tr>
+            <td>
+                <h4>Thông tin vè đơn vị tuyển</h4>
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Tên đơn vị tuyển")</td>
+            <td>@Html.TextBox("txttendonvituyen")</td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Loại hình doanh nghiệp")</td>
+            <td>
+                @Html.DropDownList("LHDN", new SelectList(ViewBag.listType, "ID", "Name"))
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Số lượng nhân viên")</td>
+            <td>@Html.TextBox("txtsoluongthanhvien")</td>
+        </tr>
+        <tr>
+            <td>
+                <h5>Thông tin liên hệ</h5>
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Địa chỉ(*)")</td>
+            <td>@Html.TextArea("txtdiachi", null, 4, 40, new { @class = "form-control", placeholder = "Nhập nội dung" })</td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Người liên hệ(*)")</td>
+            <td>@Html.TextBox("txtnguoilienhe")</td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Số điện thoại(*)")</td>
+            <td>@Html.TextBox("txtsodienthoai")</td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Số Fax")</td>
+            <td>@Html.TextBox("txtsofax")</td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Email")</td>
+            <td>@Html.TextBox("txtemail")</td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Địa chỉ Website")</td>
+            <td>@Html.TextBox("txtdiachiwebsite")</td>
+        </tr>
+        <tr>
+            <td>
+                <h5>Thông tin đăng nhập</h5>
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Tên đăng nhập(*)")</td>
+            <td>@Html.TextBox("txtusername")</td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Mật khẩu(*)")</td>
+            <td>@Html.Password("txtpassword")</td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Xác nhận mật khẩu(*)")</td>
+            <td>@Html.Password("txCfpassword")</td>
+        </tr>
+        <tr>
+            <td>
+                <h5>Nhận E-mail</h5>
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Nhập thư điện tử")</td>
+            <td>
+                @Html.RadioButton("btnReceive", "Nhận", true) Nhận
+                @Html.RadioButton("btnReceive", "Không nhận") Không nhận
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Cập nhật" />
+                <input type="reset" value="Huỷ bỏ" />
+            </td>
+
+        </tr>
+    </table>
+
+    Html.EndForm();
+}
