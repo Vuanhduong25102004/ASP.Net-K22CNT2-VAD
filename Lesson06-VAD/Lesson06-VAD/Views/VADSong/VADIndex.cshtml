@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Lesson06_VAD.Models.VADSong>
+
+@{
+    ViewBag.Title = "VAD: Danh sách bài hát";
+}
+
+<h2>VADIndex</h2>
+
+<p>
+    @Html.ActionLink("Create New", "VADCreate")
+</p>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.VADTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VADAuthor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VADArtist)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VADYearRelease)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.VADTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VADAuthor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VADArtist)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VADYearRelease)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

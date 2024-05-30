@@ -1,0 +1,101 @@
+﻿@model Lab05_1.Models.VADMember
+
+@{
+
+    ViewBag.Title = "Chi tiết thành viên";
+
+}
+
+<div>
+
+    <h2>Chi tiết thành viên</h2>
+
+    <hr />
+
+    <dl class="dl-horizontal">
+
+        <dt>
+
+            Mã số
+
+        </dt>
+
+
+
+        <dd>
+
+            @Html.DisplayFor(model => model.Id)
+
+        </dd>
+
+        <dt>
+
+            Tên đăng nhập
+
+        </dt>
+
+        <dd>
+
+            @Html.DisplayFor(model => model.Username)
+
+        </dd>
+
+
+
+        <dt>
+
+            Họ và tên
+
+        </dt>
+
+        <dd>
+
+            @Html.DisplayFor(model => model.FullName)
+
+        </dd>
+
+        <dt>
+
+            Mật khẩu
+
+        </dt>
+
+        <dd>
+
+            @Html.DisplayFor(model => model.Password)
+
+        </dd>
+
+        <dt>
+
+            Tuổi
+
+        </dt>
+
+        <dd>
+
+            @Html.DisplayFor(model => model.Age)
+
+        </dd>
+
+        <dt>
+
+            Email
+
+        </dt>
+
+        <dd>
+
+            @Html.DisplayFor(model => model.Email)
+
+        </dd>
+
+    </dl>
+
+</div>
+
+<p>
+
+    @Html.ActionLink("Quay lại", "CreateOne")
+
+</p>
