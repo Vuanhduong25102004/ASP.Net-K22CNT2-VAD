@@ -1,0 +1,66 @@
+﻿@model Lesson08_VAD.Models.VadBook
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>VadBook</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.VadCategory.VadCategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VadCategory.VadCategoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VadTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VadTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VadAuthor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VadAuthor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VadYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VadYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VadPublisher)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VadPublisher)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VadPicture)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VadPicture)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.VadBookId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
