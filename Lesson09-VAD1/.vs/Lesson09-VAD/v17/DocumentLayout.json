@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\vs\\ASP.Net-K22CNT2-VAD\\Lesson09-VAD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22C2FF1E-61FF-47BB-A175-B37C3E4C523D}|Lesson09-VAD\\Lesson09-VAD.csproj|d:\\vs\\asp.net-k22cnt2-vad\\lesson09-vad\\lesson09-vad\\views\\vadkhoas\\vadcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22C2FF1E-61FF-47BB-A175-B37C3E4C523D}|Lesson09-VAD\\Lesson09-VAD.csproj|solutionrelative:lesson09-vad\\views\\vadkhoas\\vadcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22C2FF1E-61FF-47BB-A175-B37C3E4C523D}|Lesson09-VAD\\Lesson09-VAD.csproj|d:\\vs\\asp.net-k22cnt2-vad\\lesson09-vad\\lesson09-vad\\views\\vadkhoas\\vaddelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22C2FF1E-61FF-47BB-A175-B37C3E4C523D}|Lesson09-VAD\\Lesson09-VAD.csproj|solutionrelative:lesson09-vad\\views\\vadkhoas\\vaddelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22C2FF1E-61FF-47BB-A175-B37C3E4C523D}|Lesson09-VAD\\Lesson09-VAD.csproj|d:\\vs\\asp.net-k22cnt2-vad\\lesson09-vad\\lesson09-vad\\views\\vadkhoas\\vaddetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22C2FF1E-61FF-47BB-A175-B37C3E4C523D}|Lesson09-VAD\\Lesson09-VAD.csproj|solutionrelative:lesson09-vad\\views\\vadkhoas\\vaddetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22C2FF1E-61FF-47BB-A175-B37C3E4C523D}|Lesson09-VAD\\Lesson09-VAD.csproj|d:\\vs\\asp.net-k22cnt2-vad\\lesson09-vad\\lesson09-vad\\views\\vadkhoas\\vadedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22C2FF1E-61FF-47BB-A175-B37C3E4C523D}|Lesson09-VAD\\Lesson09-VAD.csproj|solutionrelative:lesson09-vad\\views\\vadkhoas\\vadedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22C2FF1E-61FF-47BB-A175-B37C3E4C523D}|Lesson09-VAD\\Lesson09-VAD.csproj|d:\\vs\\asp.net-k22cnt2-vad\\lesson09-vad\\lesson09-vad\\views\\vadkhoas\\vadindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22C2FF1E-61FF-47BB-A175-B37C3E4C523D}|Lesson09-VAD\\Lesson09-VAD.csproj|solutionrelative:lesson09-vad\\views\\vadkhoas\\vadindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22C2FF1E-61FF-47BB-A175-B37C3E4C523D}|Lesson09-VAD\\Lesson09-VAD.csproj|d:\\vs\\asp.net-k22cnt2-vad\\lesson09-vad\\lesson09-vad\\views\\shared\\_vadlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22C2FF1E-61FF-47BB-A175-B37C3E4C523D}|Lesson09-VAD\\Lesson09-VAD.csproj|solutionrelative:lesson09-vad\\views\\shared\\_vadlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22C2FF1E-61FF-47BB-A175-B37C3E4C523D}|Lesson09-VAD\\Lesson09-VAD.csproj|d:\\vs\\asp.net-k22cnt2-vad\\lesson09-vad\\lesson09-vad\\controllers\\vadkhoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22C2FF1E-61FF-47BB-A175-B37C3E4C523D}|Lesson09-VAD\\Lesson09-VAD.csproj|solutionrelative:lesson09-vad\\controllers\\vadkhoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VadCreate.cshtml",
+              "DocumentMoniker": "D:\\vs\\ASP.Net-K22CNT2-VAD\\Lesson09-VAD\\Lesson09-VAD\\Views\\VadKhoas\\VadCreate.cshtml",
+              "RelativeDocumentMoniker": "Lesson09-VAD\\Views\\VadKhoas\\VadCreate.cshtml",
+              "ToolTip": "D:\\vs\\ASP.Net-K22CNT2-VAD\\Lesson09-VAD\\Lesson09-VAD\\Views\\VadKhoas\\VadCreate.cshtml",
+              "RelativeToolTip": "Lesson09-VAD\\Views\\VadKhoas\\VadCreate.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T10:16:09.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VadDelete.cshtml",
+              "DocumentMoniker": "D:\\vs\\ASP.Net-K22CNT2-VAD\\Lesson09-VAD\\Lesson09-VAD\\Views\\VadKhoas\\VadDelete.cshtml",
+              "RelativeDocumentMoniker": "Lesson09-VAD\\Views\\VadKhoas\\VadDelete.cshtml",
+              "ToolTip": "D:\\vs\\ASP.Net-K22CNT2-VAD\\Lesson09-VAD\\Lesson09-VAD\\Views\\VadKhoas\\VadDelete.cshtml",
+              "RelativeToolTip": "Lesson09-VAD\\Views\\VadKhoas\\VadDelete.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T10:16:05.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VadDetails.cshtml",
+              "DocumentMoniker": "D:\\vs\\ASP.Net-K22CNT2-VAD\\Lesson09-VAD\\Lesson09-VAD\\Views\\VadKhoas\\VadDetails.cshtml",
+              "RelativeDocumentMoniker": "Lesson09-VAD\\Views\\VadKhoas\\VadDetails.cshtml",
+              "ToolTip": "D:\\vs\\ASP.Net-K22CNT2-VAD\\Lesson09-VAD\\Lesson09-VAD\\Views\\VadKhoas\\VadDetails.cshtml",
+              "RelativeToolTip": "Lesson09-VAD\\Views\\VadKhoas\\VadDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T10:16:00.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VadEdit.cshtml",
+              "DocumentMoniker": "D:\\vs\\ASP.Net-K22CNT2-VAD\\Lesson09-VAD\\Lesson09-VAD\\Views\\VadKhoas\\VadEdit.cshtml",
+              "RelativeDocumentMoniker": "Lesson09-VAD\\Views\\VadKhoas\\VadEdit.cshtml",
+              "ToolTip": "D:\\vs\\ASP.Net-K22CNT2-VAD\\Lesson09-VAD\\Lesson09-VAD\\Views\\VadKhoas\\VadEdit.cshtml",
+              "RelativeToolTip": "Lesson09-VAD\\Views\\VadKhoas\\VadEdit.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAC4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T10:15:54.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_VadLayout.cshtml",
+              "DocumentMoniker": "D:\\vs\\ASP.Net-K22CNT2-VAD\\Lesson09-VAD\\Lesson09-VAD\\Views\\Shared\\_VadLayout.cshtml",
+              "RelativeDocumentMoniker": "Lesson09-VAD\\Views\\Shared\\_VadLayout.cshtml",
+              "ToolTip": "D:\\vs\\ASP.Net-K22CNT2-VAD\\Lesson09-VAD\\Lesson09-VAD\\Views\\Shared\\_VadLayout.cshtml",
+              "RelativeToolTip": "Lesson09-VAD\\Views\\Shared\\_VadLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T10:09:10.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VadIndex.cshtml",
+              "DocumentMoniker": "D:\\vs\\ASP.Net-K22CNT2-VAD\\Lesson09-VAD\\Lesson09-VAD\\Views\\VadKhoas\\VadIndex.cshtml",
+              "RelativeDocumentMoniker": "Lesson09-VAD\\Views\\VadKhoas\\VadIndex.cshtml",
+              "ToolTip": "D:\\vs\\ASP.Net-K22CNT2-VAD\\Lesson09-VAD\\Lesson09-VAD\\Views\\VadKhoas\\VadIndex.cshtml",
+              "RelativeToolTip": "Lesson09-VAD\\Views\\VadKhoas\\VadIndex.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T10:07:28.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VadKhoasController.cs",
+              "DocumentMoniker": "D:\\vs\\ASP.Net-K22CNT2-VAD\\Lesson09-VAD\\Lesson09-VAD\\Controllers\\VadKhoasController.cs",
+              "RelativeDocumentMoniker": "Lesson09-VAD\\Controllers\\VadKhoasController.cs",
+              "ToolTip": "D:\\vs\\ASP.Net-K22CNT2-VAD\\Lesson09-VAD\\Lesson09-VAD\\Controllers\\VadKhoasController.cs",
+              "RelativeToolTip": "Lesson09-VAD\\Controllers\\VadKhoasController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwHIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T10:04:53.037Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="VadK22CNT2Lesson09DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="vadKhoa">
+          <Key>
+            <PropertyRef Name="VadMaKH" />
+          </Key>
+          <Property Name="VadMaKH" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="VadTenKH" Type="nchar" MaxLength="50" />
+          <Property Name="VadTrangThai" Type="bit" />
+        </EntityType>
+        <EntityType Name="vadSinhVien">
+          <Key>
+            <PropertyRef Name="VadMaSV" />
+          </Key>
+          <Property Name="VadMaSV" Type="nchar" MaxLength="50" Nullable="false" />
+          <Property Name="VadHoSV" Type="nchar" MaxLength="50" />
+          <Property Name="VadTenSV" Type="nchar" MaxLength="50" />
+          <Property Name="VadNgaySinh" Type="date" />
+          <Property Name="VadPhai" Type="bit" />
+          <Property Name="VadPhone" Type="nchar" MaxLength="10" />
+          <Property Name="VadEmail" Type="nvarchar" MaxLength="50" />
+          <Property Name="VadMaKH" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <Association Name="FK_vadSinhVien_vadKhoa">
+          <End Role="vadKhoa" Type="Self.vadKhoa" Multiplicity="0..1" />
+          <End Role="vadSinhVien" Type="Self.vadSinhVien" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="vadKhoa">
+              <PropertyRef Name="VadMaKH" />
+            </Principal>
+            <Dependent Role="vadSinhVien">
+              <PropertyRef Name="VadMaKH" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="VadK22CNT2Lesson09DbModelStoreContainer">
+          <EntitySet Name="vadKhoa" EntityType="Self.vadKhoa" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="vadSinhVien" EntityType="Self.vadSinhVien" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_vadSinhVien_vadKhoa" Association="Self.FK_vadSinhVien_vadKhoa">
+            <End Role="vadKhoa" EntitySet="vadKhoa" />
+            <End Role="vadSinhVien" EntitySet="vadSinhVien" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="VadK22CNT2Lesson09DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="vadKhoa">
+          <Key>
+            <PropertyRef Name="VadMaKH" />
+          </Key>
+          <Property Name="VadMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="VadTenKH" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="VadTrangThai" Type="Boolean" />
+          <NavigationProperty Name="vadSinhViens" Relationship="VadK22CNT2Lesson09DbModel.FK_vadSinhVien_vadKhoa" FromRole="vadKhoa" ToRole="vadSinhVien" />
+        </EntityType>
+        <EntityType Name="vadSinhVien">
+          <Key>
+            <PropertyRef Name="VadMaSV" />
+          </Key>
+          <Property Name="VadMaSV" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="VadHoSV" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="VadTenSV" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="VadNgaySinh" Type="DateTime" Precision="0" />
+          <Property Name="VadPhai" Type="Boolean" />
+          <Property Name="VadPhone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="VadEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="VadMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="vadKhoa" Relationship="VadK22CNT2Lesson09DbModel.FK_vadSinhVien_vadKhoa" FromRole="vadSinhVien" ToRole="vadKhoa" />
+        </EntityType>
+        <EntityContainer Name="VadK22CNT2Lesson09DbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="vadKhoas" EntityType="Self.vadKhoa" />
+          <EntitySet Name="vadSinhViens" EntityType="Self.vadSinhVien" />
+          <AssociationSet Name="FK_vadSinhVien_vadKhoa" Association="VadK22CNT2Lesson09DbModel.FK_vadSinhVien_vadKhoa">
+            <End Role="vadKhoa" EntitySet="vadKhoas" />
+            <End Role="vadSinhVien" EntitySet="vadSinhViens" />
+          </AssociationSet>
+        </EntityContainer>
+        <Association Name="FK_vadSinhVien_vadKhoa">
+          <End Type="VadK22CNT2Lesson09DbModel.vadKhoa" Role="vadKhoa" Multiplicity="0..1" />
+          <End Type="VadK22CNT2Lesson09DbModel.vadSinhVien" Role="vadSinhVien" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="vadKhoa">
+              <PropertyRef Name="VadMaKH" />
+            </Principal>
+            <Dependent Role="vadSinhVien">
+              <PropertyRef Name="VadMaKH" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="VadK22CNT2Lesson09DbModelStoreContainer" CdmEntityContainer="VadK22CNT2Lesson09DbEntities">
+          <EntitySetMapping Name="vadKhoas">
+            <EntityTypeMapping TypeName="VadK22CNT2Lesson09DbModel.vadKhoa">
+              <MappingFragment StoreEntitySet="vadKhoa">
+                <ScalarProperty Name="VadMaKH" ColumnName="VadMaKH" />
+                <ScalarProperty Name="VadTenKH" ColumnName="VadTenKH" />
+                <ScalarProperty Name="VadTrangThai" ColumnName="VadTrangThai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vadSinhViens">
+            <EntityTypeMapping TypeName="VadK22CNT2Lesson09DbModel.vadSinhVien">
+              <MappingFragment StoreEntitySet="vadSinhVien">
+                <ScalarProperty Name="VadMaSV" ColumnName="VadMaSV" />
+                <ScalarProperty Name="VadHoSV" ColumnName="VadHoSV" />
+                <ScalarProperty Name="VadTenSV" ColumnName="VadTenSV" />
+                <ScalarProperty Name="VadNgaySinh" ColumnName="VadNgaySinh" />
+                <ScalarProperty Name="VadPhai" ColumnName="VadPhai" />
+                <ScalarProperty Name="VadPhone" ColumnName="VadPhone" />
+                <ScalarProperty Name="VadEmail" ColumnName="VadEmail" />
+                <ScalarProperty Name="VadMaKH" ColumnName="VadMaKH" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

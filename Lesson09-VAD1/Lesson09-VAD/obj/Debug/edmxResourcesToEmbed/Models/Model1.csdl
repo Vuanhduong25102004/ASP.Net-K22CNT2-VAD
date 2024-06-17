@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VadK22CNT2Lesson09DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="vadKhoa">
+    <Key>
+      <PropertyRef Name="VadMaKH" />
+    </Key>
+    <Property Name="VadMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="VadTenKH" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="VadTrangThai" Type="Boolean" />
+    <NavigationProperty Name="vadSinhViens" Relationship="VadK22CNT2Lesson09DbModel.FK_vadSinhVien_vadKhoa" FromRole="vadKhoa" ToRole="vadSinhVien" />
+  </EntityType>
+  <EntityType Name="vadSinhVien">
+    <Key>
+      <PropertyRef Name="VadMaSV" />
+    </Key>
+    <Property Name="VadMaSV" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="VadHoSV" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="VadTenSV" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="VadNgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="VadPhai" Type="Boolean" />
+    <Property Name="VadPhone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="VadEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VadMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="vadKhoa" Relationship="VadK22CNT2Lesson09DbModel.FK_vadSinhVien_vadKhoa" FromRole="vadSinhVien" ToRole="vadKhoa" />
+  </EntityType>
+  <EntityContainer Name="VadK22CNT2Lesson09DbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="vadKhoas" EntityType="Self.vadKhoa" />
+    <EntitySet Name="vadSinhViens" EntityType="Self.vadSinhVien" />
+    <AssociationSet Name="FK_vadSinhVien_vadKhoa" Association="VadK22CNT2Lesson09DbModel.FK_vadSinhVien_vadKhoa">
+      <End Role="vadKhoa" EntitySet="vadKhoas" />
+      <End Role="vadSinhVien" EntitySet="vadSinhViens" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK_vadSinhVien_vadKhoa">
+    <End Type="VadK22CNT2Lesson09DbModel.vadKhoa" Role="vadKhoa" Multiplicity="0..1" />
+    <End Type="VadK22CNT2Lesson09DbModel.vadSinhVien" Role="vadSinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="vadKhoa">
+        <PropertyRef Name="VadMaKH" />
+      </Principal>
+      <Dependent Role="vadSinhVien">
+        <PropertyRef Name="VadMaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

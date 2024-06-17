@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VadK22CNT2Lesson09DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="vadKhoa">
+    <Key>
+      <PropertyRef Name="VadMaKH" />
+    </Key>
+    <Property Name="VadMaKH" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="VadTenKH" Type="nchar" MaxLength="50" />
+    <Property Name="VadTrangThai" Type="bit" />
+  </EntityType>
+  <EntityType Name="vadSinhVien">
+    <Key>
+      <PropertyRef Name="VadMaSV" />
+    </Key>
+    <Property Name="VadMaSV" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="VadHoSV" Type="nchar" MaxLength="50" />
+    <Property Name="VadTenSV" Type="nchar" MaxLength="50" />
+    <Property Name="VadNgaySinh" Type="date" />
+    <Property Name="VadPhai" Type="bit" />
+    <Property Name="VadPhone" Type="nchar" MaxLength="10" />
+    <Property Name="VadEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="VadMaKH" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <Association Name="FK_vadSinhVien_vadKhoa">
+    <End Role="vadKhoa" Type="Self.vadKhoa" Multiplicity="0..1" />
+    <End Role="vadSinhVien" Type="Self.vadSinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="vadKhoa">
+        <PropertyRef Name="VadMaKH" />
+      </Principal>
+      <Dependent Role="vadSinhVien">
+        <PropertyRef Name="VadMaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="VadK22CNT2Lesson09DbModelStoreContainer">
+    <EntitySet Name="vadKhoa" EntityType="Self.vadKhoa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="vadSinhVien" EntityType="Self.vadSinhVien" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_vadSinhVien_vadKhoa" Association="Self.FK_vadSinhVien_vadKhoa">
+      <End Role="vadKhoa" EntitySet="vadKhoa" />
+      <End Role="vadSinhVien" EntitySet="vadSinhVien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
