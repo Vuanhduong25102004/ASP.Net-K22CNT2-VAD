@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="VadK22CNT2Lesson09DbModelStoreContainer" CdmEntityContainer="VadK22CNT2Lesson09DbEntities">
+    <EntitySetMapping Name="vadKhoas">
+      <EntityTypeMapping TypeName="VadK22CNT2Lesson09DbModel.vadKhoa">
+        <MappingFragment StoreEntitySet="vadKhoa">
+          <ScalarProperty Name="VadMaKH" ColumnName="VadMaKH" />
+          <ScalarProperty Name="VadTenKH" ColumnName="VadTenKH" />
+          <ScalarProperty Name="VadTrangThai" ColumnName="VadTrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vadSinhViens">
+      <EntityTypeMapping TypeName="VadK22CNT2Lesson09DbModel.vadSinhVien">
+        <MappingFragment StoreEntitySet="vadSinhVien">
+          <ScalarProperty Name="VadMaSV" ColumnName="VadMaSV" />
+          <ScalarProperty Name="VadHoSV" ColumnName="VadHoSV" />
+          <ScalarProperty Name="VadTenSV" ColumnName="VadTenSV" />
+          <ScalarProperty Name="VadNgaySinh" ColumnName="VadNgaySinh" />
+          <ScalarProperty Name="VadPhai" ColumnName="VadPhai" />
+          <ScalarProperty Name="VadPhone" ColumnName="VadPhone" />
+          <ScalarProperty Name="VadEmail" ColumnName="VadEmail" />
+          <ScalarProperty Name="VadMaKH" ColumnName="VadMaKH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
