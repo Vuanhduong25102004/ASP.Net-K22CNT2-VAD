@@ -1,0 +1,82 @@
+﻿@model Lesson10_VAD.Models.vadSinhVien
+
+@{
+    ViewBag.Title = "VADDetails";
+}
+
+<h2>VADDetails</h2>
+
+<div>
+    <h4>vadSinhVien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.vadHoSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vadHoSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.vadTenSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vadTenSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.vadPhai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vadPhai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.vadNgaySinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vadNgaySinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.vadNoiSinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vadNoiSinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.vadHocBong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vadHocBong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.vadDiemTrungBinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vadDiemTrungBinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.vadKhoa.vadTenKH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vadKhoa.vadTenKH)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("VAD-Edit", "VADEdit", new { id = Model.vadMaSV.Trim() }) |
+    @Html.ActionLink("Back to List", "VADSinhvien")
+</p>

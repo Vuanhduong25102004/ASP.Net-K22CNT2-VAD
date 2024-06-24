@@ -1,0 +1,26 @@
+﻿@model Lesson10_VAD.Models.vadKhoa
+
+@{
+    ViewBag.Title = "VADDetails";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>vadKhoa</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.vadTenKH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vadTenKH)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("VAD-Edit", "VADEdit", new { id = Model.vadMaKH.Trim() }) |
+    @Html.ActionLink("Back to List", "VADIndex")
+</p>

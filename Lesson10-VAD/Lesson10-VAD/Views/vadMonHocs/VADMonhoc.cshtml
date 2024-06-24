@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Lesson10_VAD.Models.vadMonHoc>
+
+@{
+    ViewBag.Title = "VadMonhoc";
+}
+
+<h2>VADMonhoc</h2>
+
+<p>
+    @Html.ActionLink("VAD Create New", "VADCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.vadTenMH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.vadSotiet)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.vadTenMH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.vadSotiet)
+        </td>
+        <td>
+            @Html.ActionLink("VAD-Edit", "VADEdit", new { id=item.vadMaMH.Trim() }) |
+            @Html.ActionLink("VAD-Details", "VADDetails", new { id=item.vadMaMH.Trim() }) |
+            @Html.ActionLink("VAD-Delete", "VADDelete", new { id=item.vadMaMH.Trim() })
+        </td>
+    </tr>
+}
+
+</table>

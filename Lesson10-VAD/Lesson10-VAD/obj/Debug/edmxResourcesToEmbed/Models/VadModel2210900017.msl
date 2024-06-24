@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="VadK22CNT2Lesson10DbModelStoreContainer" CdmEntityContainer="VadK22CNT2Lesson10DbEntities3">
+    <EntitySetMapping Name="vadKetQuas">
+      <EntityTypeMapping TypeName="VadK22CNT2Lesson10DbModel.vadKetQua">
+        <MappingFragment StoreEntitySet="vadKetQua">
+          <ScalarProperty Name="vadMaSV" ColumnName="vadMaSV" />
+          <ScalarProperty Name="vadMaMH" ColumnName="vadMaMH" />
+          <ScalarProperty Name="vadDiem" ColumnName="vadDiem" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vadKhoas">
+      <EntityTypeMapping TypeName="VadK22CNT2Lesson10DbModel.vadKhoa">
+        <MappingFragment StoreEntitySet="vadKhoa">
+          <ScalarProperty Name="vadMaKH" ColumnName="vadMaKH" />
+          <ScalarProperty Name="vadTenKH" ColumnName="vadTenKH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vadMonHocs">
+      <EntityTypeMapping TypeName="VadK22CNT2Lesson10DbModel.vadMonHoc">
+        <MappingFragment StoreEntitySet="vadMonHoc">
+          <ScalarProperty Name="vadMaMH" ColumnName="vadMaMH" />
+          <ScalarProperty Name="vadTenMH" ColumnName="vadTenMH" />
+          <ScalarProperty Name="vadSotiet" ColumnName="vadSotiet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vadSinhViens">
+      <EntityTypeMapping TypeName="VadK22CNT2Lesson10DbModel.vadSinhVien">
+        <MappingFragment StoreEntitySet="vadSinhVien">
+          <ScalarProperty Name="vadMaSV" ColumnName="vadMaSV" />
+          <ScalarProperty Name="vadHoSV" ColumnName="vadHoSV" />
+          <ScalarProperty Name="vadTenSV" ColumnName="vadTenSV" />
+          <ScalarProperty Name="vadPhai" ColumnName="vadPhai" />
+          <ScalarProperty Name="vadNgaySinh" ColumnName="vadNgaySinh" />
+          <ScalarProperty Name="vadNoiSinh" ColumnName="vadNoiSinh" />
+          <ScalarProperty Name="vadMaKH" ColumnName="vadMaKH" />
+          <ScalarProperty Name="vadHocBong" ColumnName="vadHocBong" />
+          <ScalarProperty Name="vadDiemTrungBinh" ColumnName="vadDiemTrungBinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
